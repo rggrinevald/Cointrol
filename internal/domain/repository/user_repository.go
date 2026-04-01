@@ -1,6 +1,8 @@
 package repository
 
-import "github.com/rggrinevald/cointrol/internal/domain/entity"
+import (
+	"github.com/rggrinevald/cointrol/internal/domain/entity"
+)
 
 type UserRepository interface {
 	Create(user *entity.User) error
